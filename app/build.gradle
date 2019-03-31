@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion deps.build.compileSdkVersion
+
+    defaultConfig {
+
+        minSdkVersion deps.build.minSdkVersion
+        targetSdkVersion deps.build.targetSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+
+    implementation deps.kotlin
+
+    implementation deps.support.appcompat
+    implementation deps.support.constraint
+    implementation deps.support.recyclerview
+
+    implementation deps.glide.lib
+    kapt deps.glide.compiler
+
+    //Reactive
+    implementation deps.rx.android
+    implementation deps.rx.java
+
+    implementation deps.dagger.lib
+    implementation deps.dagger.androidSupport
+    kapt deps.dagger.compiler
+    implementation deps.dagger.android
+    kapt deps.dagger.androidCompiler
+
+    implementation deps.timber
+
+    implementation deps.arch.lifeCycle
+    implementation deps.arch.liveData
+
+}

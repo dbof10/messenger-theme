@@ -1,0 +1,7 @@
+#Sun Mar 31 10:24:20 SGT 2019
+base.0=/Users/daniel.lee/Downloads/Messenger/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/daniel.lee/Downloads/Messenger/app/build/intermediates/dex/debug/mergeProjectDexDebug/out

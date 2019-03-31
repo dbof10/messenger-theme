@@ -1,0 +1,135 @@
+def versions = [
+        dagger   : '2.19',
+        lifecycle: "2.0.0"
+]
+
+def build = [
+        compileSdkVersion: 28,
+        ci               : 'true' == System.getenv('CI'),
+        minSdkVersion    : 21,
+        targetSdkVersion : 28,
+
+]
+
+def support = [
+        core        : "androidx.core:core:1.0.1",
+        appcompat   : "androidx.appcompat:appcompat:1.0.2",
+        multidex    : "androidx.multidex:multidex:2.0.0",
+        annotation  : "androidx.annotation:annotation:1.0.0",
+        constraint  : 'androidx.constraintlayout:constraintlayout:1.1.3',
+        exif        : "androidx.exifinterface:exifinterface:1.0.0",
+        recyclerview: "androidx.recyclerview:recyclerview:1.0.0",
+        design      : "com.google.android.material:material:1.0.0-rc01",
+
+]
+
+def arch = [
+        lifeCycle       : "androidx.lifecycle:lifecycle-extensions:${versions.lifecycle}",
+        liveData        : "androidx.lifecycle:lifecycle-livedata:${versions.lifecycle}",
+        lifeCycleRuntime: "androidx.lifecycle:lifecycle-runtime:${versions.lifecycle}",
+        compiler        : "androidx.lifecycle:lifecycle-compiler:${versions.lifecycle}"
+]
+
+def navigation = [
+        fragmentKtx: 'android.arch.navigation:navigation-fragment-ktx:1.0.0-rc02',
+        runtime    : "android.arch.navigation:navigation-runtime:1.0.0-rc02",
+        runtimeKtx : "android.arch.navigation:navigation-runtime-ktx:1.0.0-rc02"
+]
+
+def dagger = [
+        lib            : "com.google.dagger:dagger:${versions.dagger}",
+        compiler       : "com.google.dagger:dagger-compiler:${versions.dagger}",
+        android        : "com.google.dagger:dagger-android:${versions.dagger}",
+        androidSupport : "com.google.dagger:dagger-android-support:${versions.dagger}",
+        androidCompiler: "com.google.dagger:dagger-android-processor:${versions.dagger}"
+]
+
+def rx = [
+        java   : 'io.reactivex.rxjava2:rxjava:2.2.2',
+        android: 'io.reactivex.rxjava2:rxandroid:2.1.1',
+]
+
+def test = [
+        "mockito"    : "org.mockito:mockito-core:2.10.0",
+        "junit"      : "junit:junit:4.12",
+        "robolectric": "org.robolectric:robolectric:3.3.2"
+]
+
+def glide = [
+        lib     : 'com.github.bumptech.glide:glide:4.9.0',
+        compiler: 'com.github.bumptech.glide:compiler:4.9.0',
+]
+
+
+def firebase = [
+        core: "com.google.firebase:firebase-core:16.0.4",
+        ads : "com.google.firebase:firebase-ads:17.0.0",
+        pn  : 'com.google.firebase:firebase-messaging:17.3.3'
+]
+
+def leakcanary = [
+        op  : 'com.squareup.leakcanary:leakcanary-android:1.6.1',
+        noop: 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+]
+
+def ui = [
+        messageview: 'me.himanshusoni.chatmessageview:chat-message-view:1.0.7',
+        lottie     : 'com.airbnb.android:lottie:2.8.0',
+]
+
+def facebook = [
+        "messenger": 'com.facebook.android:facebook-messenger:4.40.0',
+]
+
+def persistent = [
+        "room"        : 'androidx.room:room-runtime:2.0.0',
+        "roomrx"      : 'androidx.room:room-rxjava2:2.0.0',
+        "roomCompiler": 'androidx.room:room-compiler:2.0.0',
+        "test"        : 'androidx.room:room-testing:2.0.0'
+]
+
+def gif = [
+        "encoder": 'com.bilibili:burst-linker:0.0.8',
+        "decoder": 'pl.droidsonroids.gif:android-gif-drawable:1.2.16'
+]
+
+def instant = [
+        "lib" : "com.google.android.instantapps:instantapps:1.1.0",
+        "core": "com.google.android.play:core:1.2.0"
+]
+
+def network = [
+        retrofit             : 'com.squareup.retrofit2:retrofit:2.4.0',
+        retrofitRxAdapter    : 'com.squareup.retrofit2:adapter-rxjava2:2.4.0',
+        retrofitGsonConverter: 'com.squareup.retrofit2:converter-gson:2.4.0',
+        okhttp               : 'com.squareup.okhttp3:okhttp:3.11.0',
+        okhttpLog            : 'com.squareup.okhttp3:logging-interceptor:3.11.0',
+]
+
+ext.deps = [
+        "build"      : build,
+        "versions"   : versions,
+        "support"    : support,
+        "kotlin"     : "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
+        "timber"     : "com.jakewharton.timber:timber:4.7.1",
+        "dagger"     : dagger,
+        "mockito"    : 'org.mockito:mockito-core:2.10.0',
+        "rx"         : rx,
+        "crashlytics": "com.crashlytics.sdk.android:crashlytics:2.9.3@aar",
+        "test"       : test,
+        "glide"      : glide,
+        "firebase"   : firebase,
+        "leakcanary" : leakcanary,
+        "ui"         : ui,
+        "iap"        : "com.anjlab.android.iab.v3:library:1.0.44",
+        "persistent" : persistent,
+        "soloader"   : 'com.facebook.soloader:soloader:0.6.0',
+        "gif"        : gif,
+        "instant"    : instant,
+        "floating"   : 'com.github.recruit-lifestyle:FloatingView:2.4.0',
+        "network"    : network,
+        "gson"       : "com.google.code.gson:gson:2.8.5",
+        "navigation" : navigation,
+        "arch"       : arch,
+        "ar"         : "com.google.ar:core:1.7.0"
+]

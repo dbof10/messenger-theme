@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="@dimen/content_vertical_space"
+  android:paddingBottom="@dimen/content_vertical_space"
+  android:background="@color/white">
+  <com.ctech.messenger.widget.CircularImageView
+    android:id="@+id/ivAvatar"
+    android:layout_width="@dimen/onboarding_avatar_size"
+    android:layout_height="@dimen/onboarding_avatar_size"
+    android:layout_marginStart="@dimen/space_medium"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+  <com.ctech.messenger.widget.RoundedImageView
+    android:id="@+id/ivPhoto"
+    android:layout_width="@dimen/onboarding_photo_item_width"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/space_large"
+    android:adjustViewBounds="true"
+    app:layout_constraintStart_toEndOf="@+id/ivAvatar"
+    app:layout_constraintTop_toTopOf="@+id/ivAvatar"
+    app:radius="@dimen/onboarding_photo_radius"/>
+  <TextView
+    android:id="@+id/tvTimeStamp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_medium"
+    android:textAppearance="@style/Text.Body2"
+    app:layout_constraintStart_toStartOf="@+id/ivPhoto"
+    app:layout_constraintTop_toBottomOf="@+id/ivPhoto"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="content_vertical_space">16dp</dimen>
+    <dimen name="content_horizontal_space">16dp</dimen>
+
+    <dimen name="divider_width">1dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+    <dimen name="space_large">16dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+
+    <dimen name="onboarding_avatar_size">44dp</dimen>
+    <dimen name="onboarding_bubble_radius">16dp</dimen>
+    <dimen name="onboarding_demo_height">300dp</dimen>
+    <dimen name="onboarding_footer_height">36dp</dimen>
+    <dimen name="onboarding_photo_item_width">212dp</dimen>
+    <dimen name="onboarding_photo_radius">8dp</dimen>
+    <dimen name="primary_rounded_background_radius">18dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+
+    <dimen name="elevation">4dp</dimen>
+
+</resources>

@@ -1,0 +1,190 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.dagger:dagger-android-support:2.19] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/1fc0b2a163c7f7c75ac05ec45b33e458/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/0b684760d8db8fa8be579930704e9477/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8e67bd5ad9884df47cda283a31a592b6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7e1c1367381699df3cc1e045c74c4e6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/35a42cf32c2aad5a9954d5062893d86e/AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/24f1885f4e69f8f1aa3378508b4581d2/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.dagger:dagger-android:2.19] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/987209b22c95f27b74e124f455b3c240/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/2d5ba7bd203a991e1f19b8426f0cbff6/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ea5e4216615795a17e9252e5e4d8f41a/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/cdb8e59c46d6303722994c3d947b624f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/beaba7b2df02360b0490e66dfebdf0b7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/a5ceff5291311859f5eb9458c2750332/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8713f146d2e41f525271c57ec8054287/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/4d77df6451abbf1afa46aa0962a432d0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7a1e693cbb5aada22c9db7e14233cfd2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7ea2da4e8e61a4f088af8bf2ec8d502a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/6724a7f0c8c86ec435b65cad52ac57da/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/f10d76e0e27aa6b60b9de52281791aff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/b0ed8e3a1a8fd93d08aa83b8114cf9cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/b37f36fa2c76d0e72ecfd44180c4a87c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8cd915bac58761fcdffad68a829fda9f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/5c48c8e02bd1b1b2af19a1a5f5c8c1b8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/d913b40789c3a9b6bc7461c068a2d88a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/c9de1076e56ff01f8cd72d4646622f63/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/fb4d72c6e25c5c8dbca1d5880e19d852/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ffc661e90ad79a0d0814207528db2ece/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3cef4e6db8c77c916f3ebcec440869bc/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/e307c8af6a9e655a409d9aa7d97521fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8f1ecf366c4ed3a7a56a3e88409aec65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/faad5a9242ec2ee2cb1118821aaf5252/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/03b5168fa9a2683fa33699fada6c54de/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/dc62ff97accfb99a86f1cff31118897a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/27b73c1e9705f73cbaabd234a91f8ce2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/0927552453ffac001c310c4e3c99c768/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/5903cf984ebafa6c10acdfaccb6ee824/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/cb50c25cd3d342cc1ed74c64bc13c3f2/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:3:3-32
+	xmlns:android
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:6:3-23:17
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8e67bd5ad9884df47cda283a31a592b6/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8e67bd5ad9884df47cda283a31a592b6/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/35a42cf32c2aad5a9954d5062893d86e/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/35a42cf32c2aad5a9954d5062893d86e/AndroidManifest.xml:10:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/2d5ba7bd203a991e1f19b8426f0cbff6/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/2d5ba7bd203a991e1f19b8426f0cbff6/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ea5e4216615795a17e9252e5e4d8f41a/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ea5e4216615795a17e9252e5e4d8f41a/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/c9de1076e56ff01f8cd72d4646622f63/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/c9de1076e56ff01f8cd72d4646622f63/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/fb4d72c6e25c5c8dbca1d5880e19d852/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/fb4d72c6e25c5c8dbca1d5880e19d852/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3cef4e6db8c77c916f3ebcec440869bc/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3cef4e6db8c77c916f3ebcec440869bc/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:22:5-28:19
+	android:supportsRtl
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:11:5-31
+	android:label
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:10:5-37
+	android:appComponentFactory
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:8:5-73
+	android:icon
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:9:5-39
+	android:allowBackup
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:7:5-31
+	android:theme
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:12:5-36
+activity#com.ctech.messenger.view.OnboardingActivity
+ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:13:5-21:16
+	android:label
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:14:7-39
+	android:windowSoftInputMode
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:16:7-79
+	android:name
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:15:7-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:17:7-20:23
+action#android.intent.action.MAIN
+ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:18:9-60
+	android:name
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:18:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:19:9-68
+	android:name
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml:19:19-66
+uses-sdk
+INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+MERGED from [com.google.dagger:dagger-android-support:2.19] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/1fc0b2a163c7f7c75ac05ec45b33e458/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.19] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/1fc0b2a163c7f7c75ac05ec45b33e458/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/0b684760d8db8fa8be579930704e9477/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/0b684760d8db8fa8be579930704e9477/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8e67bd5ad9884df47cda283a31a592b6/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8e67bd5ad9884df47cda283a31a592b6/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7e1c1367381699df3cc1e045c74c4e6a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7e1c1367381699df3cc1e045c74c4e6a/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/35a42cf32c2aad5a9954d5062893d86e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/35a42cf32c2aad5a9954d5062893d86e/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/24f1885f4e69f8f1aa3378508b4581d2/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/24f1885f4e69f8f1aa3378508b4581d2/AndroidManifest.xml:18:5-43
+MERGED from [com.google.dagger:dagger-android:2.19] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/987209b22c95f27b74e124f455b3c240/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.19] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/987209b22c95f27b74e124f455b3c240/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/2d5ba7bd203a991e1f19b8426f0cbff6/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/2d5ba7bd203a991e1f19b8426f0cbff6/AndroidManifest.xml:5:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ea5e4216615795a17e9252e5e4d8f41a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ea5e4216615795a17e9252e5e4d8f41a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/cdb8e59c46d6303722994c3d947b624f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/cdb8e59c46d6303722994c3d947b624f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/beaba7b2df02360b0490e66dfebdf0b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/beaba7b2df02360b0490e66dfebdf0b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/a5ceff5291311859f5eb9458c2750332/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/a5ceff5291311859f5eb9458c2750332/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8713f146d2e41f525271c57ec8054287/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8713f146d2e41f525271c57ec8054287/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/4d77df6451abbf1afa46aa0962a432d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/4d77df6451abbf1afa46aa0962a432d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7a1e693cbb5aada22c9db7e14233cfd2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7a1e693cbb5aada22c9db7e14233cfd2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7ea2da4e8e61a4f088af8bf2ec8d502a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/7ea2da4e8e61a4f088af8bf2ec8d502a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/6724a7f0c8c86ec435b65cad52ac57da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/6724a7f0c8c86ec435b65cad52ac57da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/f10d76e0e27aa6b60b9de52281791aff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/f10d76e0e27aa6b60b9de52281791aff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/b0ed8e3a1a8fd93d08aa83b8114cf9cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/b0ed8e3a1a8fd93d08aa83b8114cf9cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/b37f36fa2c76d0e72ecfd44180c4a87c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/b37f36fa2c76d0e72ecfd44180c4a87c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8cd915bac58761fcdffad68a829fda9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8cd915bac58761fcdffad68a829fda9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/5c48c8e02bd1b1b2af19a1a5f5c8c1b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/5c48c8e02bd1b1b2af19a1a5f5c8c1b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/d913b40789c3a9b6bc7461c068a2d88a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/d913b40789c3a9b6bc7461c068a2d88a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/c9de1076e56ff01f8cd72d4646622f63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/c9de1076e56ff01f8cd72d4646622f63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/fb4d72c6e25c5c8dbca1d5880e19d852/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/fb4d72c6e25c5c8dbca1d5880e19d852/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ffc661e90ad79a0d0814207528db2ece/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/ffc661e90ad79a0d0814207528db2ece/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3cef4e6db8c77c916f3ebcec440869bc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3cef4e6db8c77c916f3ebcec440869bc/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/e307c8af6a9e655a409d9aa7d97521fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/e307c8af6a9e655a409d9aa7d97521fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8f1ecf366c4ed3a7a56a3e88409aec65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/8f1ecf366c4ed3a7a56a3e88409aec65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/faad5a9242ec2ee2cb1118821aaf5252/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/faad5a9242ec2ee2cb1118821aaf5252/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/03b5168fa9a2683fa33699fada6c54de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/03b5168fa9a2683fa33699fada6c54de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/dc62ff97accfb99a86f1cff31118897a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/dc62ff97accfb99a86f1cff31118897a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/27b73c1e9705f73cbaabd234a91f8ce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/27b73c1e9705f73cbaabd234a91f8ce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/0927552453ffac001c310c4e3c99c768/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/0927552453ffac001c310c4e3c99c768/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/5903cf984ebafa6c10acdfaccb6ee824/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/5903cf984ebafa6c10acdfaccb6ee824/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/cb50c25cd3d342cc1ed74c64bc13c3f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/cb50c25cd3d342cc1ed74c64bc13c3f2/AndroidManifest.xml:20:5-44
+INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daniel.lee/Downloads/Messenger/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/daniel.lee/.gradle/caches/transforms-2/files-2.1/3d4d1d469d75433eb99640c6b892fb7f/AndroidManifest.xml:24:13-79
