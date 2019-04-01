@@ -2,23 +2,35 @@ package com.ctech.messenger.widget
 
 import android.content.Context
 import android.graphics.Canvas
+import android.graphics.Canvas.ALL_SAVE_FLAG
 import android.graphics.Paint
+import android.graphics.PorterDuff
 import android.graphics.PorterDuff.Mode
 import android.graphics.PorterDuffXfermode
+import android.graphics.RectF
 import android.util.AttributeSet
+import android.util.Log
 import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import com.ctech.messenger.R
 
-class BackgroundAwareLayout(context: Context?, attrs: AttributeSet) : ConstraintLayout(context, attrs) {
+
+class BackgroundAwareLayout @JvmOverloads constructor(
+        context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : ConstraintLayout(context, attrs, defStyleAttr) {
+
     private var childId: Int = 0
     private lateinit var childView: View
     private lateinit var eraser: Paint
     private var radius: Float = 0F
+    private val childRect = RectF()
 
     init {
-        setup(attrs)
+        setup(attrs!!)
+
     }
 
     private fun setup(attrs: AttributeSet) {
@@ -41,17 +53,18 @@ class BackgroundAwareLayout(context: Context?, attrs: AttributeSet) : Constraint
     }
 
     private fun setupEraser() {
-        this.eraser = Paint()
+        eraser = Paint()
         eraser.color = ContextCompat.getColor(context, android.R.color.transparent)
-        eraser.xfermode = PorterDuffXfermode(Mode.CLEAR)
+        eraser.xfermode = PorterDuffXfermode(PorterDuff.Mode.CLEAR)
         eraser.isAntiAlias = true
-         setLayerType(LAYER_TYPE_SOFTWARE, null)
+        setLayerType(View.LAYER_TYPE_HARDWARE, null)
     }
 
     override fun dispatchDraw(canvas: Canvas) {
+        childRect.set(childView.left.toFloat(), childView.top.toFloat(),
+                childView.right.toFloat(), childView.bottom.toFloat())
+        canvas.drawRoundRect(childRect, radius, radius, eraser)
 
-        canvas.drawRoundRect(childView.left.toFloat(), childView.top.toFloat(),
-                childView.right.toFloat(), childView.bottom.toFloat(), radius, radius, eraser)
         super.dispatchDraw(canvas)
     }
 }

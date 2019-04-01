@@ -26,12 +26,10 @@ class MP4PlayerView : VideoView {
         init()
         setVideoPath(fileName)
         setBackground(fileName)
-        setZOrderOnTop(true)
         if (VERSION.SDK_INT >= VERSION_CODES.O) {
             setAudioFocusRequest(AUDIOFOCUS_NONE)
         }
-        requestFocus()
-        start()
+
     }
 
     private fun init() {

@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.ctech.messenger.R
@@ -15,6 +14,7 @@ import com.ctech.messenger.di.DaggerOnboardingComponent
 import com.ctech.messenger.viewmodel.ChatViewModel
 import com.ctech.messenger.viewmodel.ItemMessageViewModel
 import kotlinx.android.synthetic.main.activity_onboarding.ivAvatar
+import kotlinx.android.synthetic.main.activity_onboarding.rvMessages
 import javax.inject.Inject
 
 class OnboardingActivity : AppCompatActivity() {
@@ -31,9 +31,6 @@ class OnboardingActivity : AppCompatActivity() {
         }
     }
 
-    private val rvMessages by lazy {
-        findViewById<RecyclerView>(R.id.rvMessages)
-    }
 
     private val diffCallback: DiffUtil.ItemCallback<ItemMessageViewModel> by lazy {
         return@lazy object : DiffUtil.ItemCallback<ItemMessageViewModel>() {
