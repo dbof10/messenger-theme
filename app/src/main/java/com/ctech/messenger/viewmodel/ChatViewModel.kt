@@ -1,9 +1,9 @@
 package com.ctech.messenger.viewmodel
 
 import androidx.lifecycle.MutableLiveData
-import com.ctech.livemessage.onboarding.model.Message
 import com.ctech.livemessage.onboarding.model.User
 import com.ctech.messenger.model.AlignPosition
+import com.ctech.messenger.model.Message
 import com.ctech.messenger.repository.MessageRepository
 import com.ctech.messenger.utils.ThreadScheduler
 import io.reactivex.disposables.Disposable

@@ -1,5 +1,5 @@
-package com.ctech.livemessage.onboarding.model
+package com.ctech.messenger.model
 
-enum class MessageType{
-    TEXT, IMAGE, VIDEO
+enum class MessageType {
+    TEXT, IMAGE
 }

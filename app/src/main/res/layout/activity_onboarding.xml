@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
-  android:orientation="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
   <androidx.appcompat.widget.Toolbar
-    android:id="@+id/toolbar"
-    android:layout_width="fill_parent"
-    android:layout_height="?actionBarSize"
     android:background="@color/colorPrimary"
     android:elevation="@dimen/elevation"
+    android:id="@+id/toolbar"
+    android:layout_height="?actionBarSize"
+    android:layout_width="match_parent"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
     <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="fill_parent"
-      android:layout_height="fill_parent">
+      android:layout_height="match_parent"
+      android:layout_width="match_parent">
       <com.ctech.messenger.widget.CircularImageView
         android:id="@+id/ivAvatar"
-        android:layout_width="@dimen/onboarding_avatar_size"
         android:layout_height="@dimen/onboarding_avatar_size"
-        android:layout_marginStart="@dimen/space_medium"
         android:layout_marginEnd="@dimen/space_medium"
+        android:layout_marginStart="@dimen/space_medium"
+        android:layout_width="@dimen/onboarding_avatar_size"
         android:padding="@dimen/space_small"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
       <TextView
         android:id="@+id/tvName"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/space_medium"
+        android:layout_width="wrap_content"
         android:text="@string/onboarding_user1_name"
         android:textColor="@color/white"
         android:textSize="@dimen/title_text_size"
@@ -41,65 +42,68 @@
         app:layout_constraintTop_toTopOf="parent"/>
       <ImageView
         android:id="@+id/ivVideo"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/space_medium"
         android:layout_marginEnd="@dimen/content_horizontal_space"
+        android:layout_marginStart="@dimen/space_medium"
+        android:layout_width="wrap_content"
         android:src="@drawable/ic_videocam"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
       <ImageView
         android:id="@+id/ivPhone"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/space_large"
+        android:layout_width="wrap_content"
         android:src="@drawable/ic_phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ivVideo"
         app:layout_constraintTop_toTopOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
   </androidx.appcompat.widget.Toolbar>
-  <View
-    android:layout_width="wrap_content"
-    android:layout_height="0.0dip"
-    android:background="@drawable/chat_background"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"/>
-  <androidx.recyclerview.widget.RecyclerView
-    android:id="@+id/rvMessages"
-    android:layout_width="fill_parent"
-    android:layout_height="0.0dip"
+
+  <com.ctech.messenger.widget.KeyboardAwareImageView
+    android:id="@+id/ivBackground"
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
     app:layout_constraintBottom_toTopOf="@+id/llInput"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rvMessages"
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    app:layout_constraintBottom_toTopOf="@+id/llInput"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
   <LinearLayout
-    android:id="@+id/llInput"
-    android:layout_width="fill_parent"
-    android:layout_height="52.0dip"
     android:background="@color/white"
+    android:id="@+id/llInput"
+    android:layout_height="52dp"
+    android:layout_width="match_parent"
     android:orientation="horizontal"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent">
     <EditText
-      android:layout_width="0.0dip"
-      android:layout_height="fill_parent"
-      android:layout_weight="1.0"
+      android:background="@drawable/bubble_background"
+      android:hint="Type something"
+      android:layout_height="match_parent"
       android:layout_margin="@dimen/space_medium"
       android:layout_marginEnd="@dimen/space_medium"
-      android:paddingStart="@dimen/content_horizontal_space"
+      android:layout_weight="1.0"
+      android:layout_width="0dp"
       android:paddingEnd="@dimen/content_horizontal_space"
-      android:background="@drawable/bubble_background"
-      android:hint="Type something"/>
+      android:paddingStart="@dimen/content_horizontal_space"/>
     <ImageView
-      android:layout_width="wrap_content"
+      android:layout_gravity="center_vertical"
       android:layout_height="wrap_content"
       android:layout_marginEnd="@dimen/content_horizontal_space"
-      android:layout_gravity="center_vertical"
+      android:layout_width="wrap_content"
       android:src="@drawable/ic_send"/>
   </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

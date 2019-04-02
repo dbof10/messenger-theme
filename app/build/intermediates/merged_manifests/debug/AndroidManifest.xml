@@ -15,9 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.ctech.messenger.view.OnboardingActivity"
+            android:name="com.ctech.messenger.view.ChatActivity"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize" >
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

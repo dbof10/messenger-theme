@@ -17,7 +17,6 @@ abstract class ItemMessageViewHolder(view: View) : RecyclerView.ViewHolder(view)
     companion object {
         const val VIEW_TYPE_TEXT_MESSAGE: Int = 131
         const val VIEW_TYPE_IMAGE_MESSAGE: Int = 132
-        const val VIEW_TYPE_VIDEO_MESSAGE: Int = 133
 
         fun create(parent: ViewGroup, viewType: Int): ItemMessageViewHolder {
             when (viewType) {
@@ -25,7 +24,6 @@ abstract class ItemMessageViewHolder(view: View) : RecyclerView.ViewHolder(view)
                 -VIEW_TYPE_TEXT_MESSAGE -> return ItemTextMessageViewHolder(getView(parent, R.layout.item_outgoing_text_message))
                 VIEW_TYPE_IMAGE_MESSAGE -> return ItemImageMessageViewHolder(getView(parent, R.layout.item_incoming_image_message))
                 -VIEW_TYPE_IMAGE_MESSAGE -> return ItemImageMessageViewHolder(getView(parent, R.layout.item_outgoing_image_message))
-                -VIEW_TYPE_VIDEO_MESSAGE -> return ItemVideoMessageViewHolder(getView(parent, R.layout.item_outgoing_video_message))
             }
             throw IllegalStateException("Wrong message view type")
         }

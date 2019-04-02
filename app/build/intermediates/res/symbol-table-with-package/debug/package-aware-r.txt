@@ -674,7 +674,6 @@ drawable ic_avatar_user2
 drawable ic_phone
 drawable ic_send
 drawable ic_user1_message
-drawable ic_user2_message_blur
 drawable ic_videocam
 drawable notification_action_background
 drawable notification_bg
@@ -766,6 +765,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivAvatar
+id ivBackground
 id ivPhone
 id ivPhoto
 id ivVideo
@@ -847,7 +847,6 @@ id tvTimeStamp
 id uniform
 id up
 id useLogo
-id vVideo
 id withText
 id wrap
 id wrap_content
@@ -889,7 +888,6 @@ layout item_incoming_image_message
 layout item_incoming_text_message
 layout item_outgoing_image_message
 layout item_outgoing_text_message
-layout item_outgoing_video_message
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

@@ -1,11 +1,10 @@
 package com.ctech.messenger.repository
 
 import android.content.Context
-import com.ctech.livemessage.onboarding.model.Message
-import com.ctech.livemessage.onboarding.model.MessageType
 import com.ctech.livemessage.onboarding.model.User
 import com.ctech.messenger.R
-import com.ctech.messenger.utils.ResourcesUtils
+import com.ctech.messenger.model.Message
+import com.ctech.messenger.model.MessageType
 import com.ctech.messenger.utils.ResourcesUtils.getUri
 import io.reactivex.Observable
 
@@ -24,16 +23,16 @@ class MessageRepository(private val context: Context) {
 
     private fun getMessagesList(page: Int): List<Message> {
         return listOf(
-                Message(0, friend, "", getUri(context, R.drawable.ic_user1_message), MessageType.IMAGE, "12: 35 PM"),
-                Message(1, loggedUser, "OMG you look great! how’s the trip? \uD83D\uDE0D \uD83D\uDE18", null,
+                Message(0, loggedUser, "Hey Ann Vu", null, MessageType.TEXT, "12: 35 PM"),
+                Message(1, loggedUser, "How's Vietnam?", null, MessageType.TEXT, "12: 35 PM"),
+                Message(2, friend, "", getUri(context, R.drawable.ic_user1_message), MessageType.IMAGE, "12: 35 PM"),
+                Message(3, loggedUser, "OMG you look so great! \uD83D\uDE0D \uD83D\uDE18", null,
                         MessageType.TEXT, "12:36 PM"),
-                Message(2, friend, "Amazing! But it’s sooo hot here. \uD83D\uDE06 \uD83D\uDE31",
+                Message(4, friend, "Amazing! But it’s sooo hot here. \uD83D\uDE06 \uD83D\uDE31",
                         null, MessageType.TEXT, "12: 36 PM"),
-                Message(3, loggedUser, "", getUri(context, R.drawable.ic_user2_message_blur),
-                        MessageType.IMAGE, "12: 38 PM"),
-                Message(4, loggedUser, "", ResourcesUtils.getUri(context, R.raw.live_message_onboarding),
-                        MessageType.VIDEO, "12: 38 PM"),
-                Message(5, loggedUser, "you need a hat, lol! \uD83D\uDC52 \uD83D\uDE18", null,
+                Message(5, loggedUser, "you need a hat, lol \uD83D\uDC52 \uD83D\uDE18!", null,
+                        MessageType.TEXT, "12: 38 PM"),
+                Message(6, loggedUser, "we miss you so bad :(", null,
                         MessageType.TEXT, "12: 39 PM")
         )
 
