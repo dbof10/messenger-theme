@@ -10,6 +10,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.toBitmap
+import androidx.core.view.doOnLayout
 import androidx.core.view.doOnPreDraw
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DiffUtil
@@ -35,12 +36,6 @@ class ChatActivity : AppCompatActivity() {
 
     private lateinit var adapter: ChatAdapter
 
-    companion object {
-        fun makeIntent(context: Context): Intent {
-            return Intent(context, ChatActivity::class.java)
-        }
-    }
-
 
     private val diffCallback: DiffUtil.ItemCallback<ItemMessageViewModel> by lazy {
         return@lazy object : DiffUtil.ItemCallback<ItemMessageViewModel>() {
@@ -57,7 +52,6 @@ class ChatActivity : AppCompatActivity() {
     }
 
     private lateinit var backgroundBitmap: Bitmap
-    private var initialHeight: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -79,9 +73,8 @@ class ChatActivity : AppCompatActivity() {
     }
 
     private fun setupBackground() {
-        ivBackground.doOnPreDraw {
+        ivBackground.doOnLayout {
             if (!::backgroundBitmap.isInitialized) {
-                initialHeight = it.height
                 val background = ContextCompat.getDrawable(this, R.drawable.chat_background) as GradientDrawable
                 background.setSize(it.width, it.height)
                 backgroundBitmap = background.toBitmap()
